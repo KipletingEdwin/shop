@@ -1,0 +1,89 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-title>Menu</ion-title>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-button fill="outline" shape="round">SETTINGS</ion-button>
+      <ion-button fill="outline" shape="round">LOGOUT</ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-toolbar></ion-toolbar>
+
+    <ion-grid>
+      <ion-row class="ion-margin ion-text-center ion-justify-content-center ion-align-items-center">
+
+        <ion-col size="12" sizeMd="6" sizeLg="4" class="ion-justify-content-center">
+          <ion-card class="ion-text-center">
+            <ion-card-header color="tertiary">
+              <ion-card-title>HOME</ion-card-title>
+              <ion-card-subtitle>Home management</ion-card-subtitle>
+            </ion-card-header>
+            <ion-card-content></ion-card-content>
+            <ion-card-content></ion-card-content>
+            <ion-button fill="outline" shape="round" color="tertiary" [routerLink]="['./home']">Home</ion-button>
+            <ion-card-content></ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col size="12" sizeMd="6" sizeLg="4" class="ion-justify-content-center">
+          <ion-card class="ion-text-center">
+            <ion-card-header color="tertiary">
+              <ion-card-title>ABOUT</ion-card-title>
+              <ion-card-subtitle>About management</ion-card-subtitle>
+            </ion-card-header>
+            <ion-card-content></ion-card-content>
+            <ion-card-content></ion-card-content>
+            <ion-button fill="outline" shape="round" color="tertiary" [routerLink]="['./about']">Home</ion-button>
+            <ion-card-content></ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col size="12" sizeMd="6" sizeLg="4" class="ion-justify-content-center">
+          <ion-card class="ion-text-center">
+            <ion-card-header color="tertiary">
+              <ion-card-title>SERVICES</ion-card-title>
+              <ion-card-subtitle>Services management</ion-card-subtitle>
+            </ion-card-header>
+            <ion-card-content></ion-card-content>
+            <ion-card-content></ion-card-content>
+            <ion-button fill="outline" shape="round" color="tertiary" [routerLink]="['./services']">Home</ion-button>
+            <ion-card-content></ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col size="12" sizeMd="6" sizeLg="4" class="ion-justify-content-center">
+          <ion-card class="ion-text-center">
+            <ion-card-header color="tertiary">
+              <ion-card-title>PROJECTS</ion-card-title>
+              <ion-card-subtitle>Projects management</ion-card-subtitle>
+            </ion-card-header>
+            <ion-card-content></ion-card-content>
+            <ion-card-content></ion-card-content>
+            <ion-button fill="outline" shape="round" color="tertiary" [routerLink]="['./projects']">Home</ion-button>
+            <ion-card-content></ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col size="12" sizeMd="6" sizeLg="4" class="ion-justify-content-center">
+          <ion-card class="ion-text-center">
+            <ion-card-header color="tertiary">
+              <ion-card-title>CONTACTS</ion-card-title>
+              <ion-card-subtitle>Contact management</ion-card-subtitle>
+            </ion-card-header>
+            <ion-card-content></ion-card-content>
+            <ion-card-content></ion-card-content>
+            <ion-button fill="outline" shape="round" color="tertiary" [routerLink]="['./contacts']">Home</ion-button>
+            <ion-card-content></ion-card-content>
+          </ion-card>
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+</ion-content>
