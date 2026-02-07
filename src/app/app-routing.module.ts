@@ -35,6 +35,22 @@ const routes: Routes = [
     path: 'contactsmenu',
     loadChildren: () => import('./main/contacts/pages/contactsmenu/contactsmenu.module').then( m => m.ContactsmenuPageModule)
   },
+  {
+    path: 'projectsmenu',
+    loadChildren: () => import('./main/projects/pages/projectsmenu/projectsmenu.module').then( m => m.ProjectsmenuPageModule)
+  },
+  {
+    path: 'projectsmain',
+    loadChildren: () => import('./main/projects/pages/projectsmain/projectsmain.module').then( m => m.ProjectsmainPageModule)
+  },
+  {
+    path: 'servicesmenu',
+    loadChildren: () => import('./main/services/pages/servicesmenu/servicesmenu.module').then( m => m.ServicesmenuPageModule)
+  },
+  {
+    path: 'servicesmain',
+    loadChildren: () => import('./main/services/pages/servicesmain/servicesmain.module').then( m => m.ServicesmainPageModule)
+  },
 
 ];
 
